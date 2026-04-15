@@ -1,9 +1,7 @@
 <script setup>
-const props = defineProps({
+defineProps({
     task: Object
 })
-
-console.log('Recebido na TodoItem:', props.task)
 </script>
 
 
